@@ -1,0 +1,187 @@
+@font-face{
+    font-family: 'Geometria';
+    src: url(../fonts/Geometria.woff) format('woff');
+    font-weight: 400;
+    font-style: normal;
+    }
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Regular.ttf) format('truetype');
+    font-weight: 400;
+    font-style: normal;      
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-SemiBold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;      
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;      
+}
+@font-face{
+    font-family: 'Montserrat';
+    src: url(../fonts/Montserrat-Italic.ttf) format('truetype');
+    font-weight: 400;
+    font-style: italic;      
+}
+body{
+    font-family: 'Montserrat';
+    font-size: 18px;
+    background-image: url(../images/BG.png);
+    background-size: cover;
+    margin: 0;
+}
+.header{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    flex-direction: column;
+    height: calc(100vw/1440*960);
+    align-items: center;
+    padding: 0 36px 0 36px;
+}
+.nav{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(100vw/1440*76);
+    width: calc(100vw/1440*1290);
+}
+.menu{
+    width: calc(100vw/1440*778);
+    display: flex;
+    justify-content: space-between;
+}
+.menu a{
+    color: #1D1628;
+    text-decoration: none;
+    padding: 2px;
+}
+.menu a:hover{
+    color: #1F315ECC;
+    text-decoration: underline;
+}
+.menu a:active{
+    color: #1F315E;
+    text-decoration: underline;
+}
+.number_phone{
+    color: #1F315ECC 80%;
+}
+.menu_button button{
+    background-color: #1F315E;
+    border: none;
+    color: #FFFFFF;
+    width: 176px;
+    height: 40px;
+}
+.language{
+    display: flex;
+    flex-direction: column;
+    height: 48px;
+    justify-content: space-between;
+}
+.language a{
+    color: #080F1F;
+    padding-left: 8px;
+    height: 16px;
+    text-decoration: none;
+}
+.language a:hover{
+    color: #1F315E;
+    border-left: 1px solid #1F315E;
+}
+
+.footer{
+    height: calc(100vw/1440*664);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: calc(100vw/1440*40);
+}
+.footer_social{
+    height: calc(100vw/1440*172);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer_social .hr{
+    background-color: #1F315E;
+    width: 100%;
+    height: 0.5px;
+}
+.footer_bg_text{
+    background-image: url(../images/multiplicare_bonum.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: calc(100vw/1440*36);
+    width: 100%;
+    height: calc(100vw/1440*100);
+}
+.footer_social_icon{
+    display: flex;
+    width: calc(100vw/1440*280);
+    justify-content: space-between;
+}
+.footer_social_icon img{
+    width: calc(100vw/1440*52);
+    height: calc(100vw/1440*52);
+}
+.footer_menu{
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 14px;
+    justify-content: space-between;
+}
+.footer_menu a{
+    text-decoration: none;
+    color: #1D1628;
+}
+.footer_menu a:hover{
+    color: #1F315E;
+    text-decoration: underline;
+}
+.footer_menu_other{
+    width: calc(100vw/1440*697);
+    display: flex;
+    justify-content: space-between;
+}
+.footer_contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: calc(100vw/1440*112);
+    align-items: center;
+}
+.footer_contact_line{
+    display: flex;
+    align-items:flex-end;
+}
+.footer_contact_line_h{
+    color: #1F315E;
+    margin-right: 8px;
+}
+.footer_contact_line_p{
+    color: #080F1F;
+    font-size: 16px;
+}
+.footer_copyright{
+    display: flex;
+    justify-content: center;
+}
+.footer_copyright span{
+    text-align: center;
+    color: #7A7D86;
+    font-size: 12px;
+}
